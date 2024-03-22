@@ -1,0 +1,26 @@
+model:
+  type: wresnet28_10
+dataset: cifar100
+aug: randaugment
+randaug:
+  N: 101
+  M: 101   # from appendix
+cutout: 16
+batch: 128
+gpus: 1
+epoch: 200
+lr: 0.1
+lr_schedule:
+  type: 'cosine'
+optimizer:
+  type: sgd
+  nesterov: True
+  decay: 0.0005
+# DualAug's hyperparameter
+ood_t: 1.0
+temp: 1
+warmup_epoch: 0
+heavy_randaug:
+  N: 0
+  M: 0    # from appendix
+  weights: [1.0,1.0,1.0,1.0,1.0,1.0,1.0]
