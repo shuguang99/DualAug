@@ -1,5 +1,5 @@
 # DualAug
-This is the official implementation of **DualAug: Exploiting Additional Heavy Augmentation with OOD Data Rejection** (https://arxiv.org/abs/2310.08139) in Pytorch.
+This is the official implementation of **DualAug: Exploiting Additional Heavy Augmentation with OOD Data Rejection** in Pytorch.
 ![figure3.png](figure3.png)
 
 # Use Our Codebase
