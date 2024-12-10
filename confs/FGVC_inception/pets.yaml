@@ -1,0 +1,26 @@
+model:
+  type: inception-v4
+dataset: pets
+aug: randaugment
+randaug:
+  N: 501
+  M: 501   # from appendix
+cutout: -1
+batch: 64
+gpus: 1
+epoch: 1000
+lr: 0.1
+lr_schedule:
+  type: 'cosine'
+optimizer:
+  type: sgd
+  nesterov: True
+  decay: 0.0005
+ood_t: 1.0
+temp: 1000
+warmup_epoch: 200
+strong_randaug:
+  N: 0
+  M: 0    # from appendix
+  weights: [0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0]
+
