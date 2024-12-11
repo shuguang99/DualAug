@@ -3,8 +3,11 @@ This is the official implementation of **DualAug: Exploiting Additional Heavy Au
 ![figure3.png](figure3.png)
 # Update
 Experimental Settings for more comparative experiments were added
+
 Simsiam's code were added
+
 DA-Fusion's code were added
+
 FGVC's setting were added
 
 # Use Our Codebase
