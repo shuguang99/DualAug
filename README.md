@@ -2,13 +2,13 @@
 This is the official implementation of **DualAug: Exploiting Additional Heavy Augmentation with OOD Data Rejection** in Pytorch.
 ![figure3.png](figure3.png)
 # Update
-Experimental Settings for more comparative experiments were added
+Experimental Settings for more comparative experiments are added
 
-Simsiam's code were added
+Simsiam's code is added
 
-DA-Fusion's code were added
+DA-Fusion's code is added
 
-FGVC's setting were added
+FGVC's settings are added
 
 # Use Our Codebase
 Clone this directory and ```cd``` into it.
